@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.social-btn {
+  @apply px-[11px] py-[11px] mx-3 mb-3 text-primary border-primary border-2 shadow-[2px_2px_0_0] shadow-primary hover:shadow-[0_0_0_0] hover:text-white hover:bg-secondary hover:border-2;
+}
